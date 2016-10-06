@@ -1,0 +1,207 @@
+#wrapper {
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    color: #424242;
+}
+
+#header .container_12 {
+    position: relative;
+}
+
+/*============Logo===========*/
+#logo h1, #search h1, #cart h1 {
+    text-indent: -9999px;
+}
+#logo a, #search a, #cart a {
+  display: block;
+}
+#logo a {
+    height: 150px;
+    width: 283px;
+    background: url(../images/logo.png) no-repeat;
+}
+/*============Logo ends here===========*/
+/*#search a {
+    height: 100px;
+    width: 100px;
+    background: url(../images/search.png);
+}
+#cart a {
+    height: 100px;
+    width: 100px;
+    background: url(../images/cart.jpg);
+}
+
+#nav {
+    margin-left: 10px;
+    position: absolute;
+    right: 10px;
+}*/
+/*============navbar===========*/
+#nav ul {
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+#nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li a {
+  float: right;
+  padding-right: 30px;
+  padding-top: 56px;
+  font-size: medium;
+  color: #95be46;
+  text-decoration: none;
+  font-weight: bold;
+}
+#nav li a:hover {
+  font-weight: bold;
+  color: black;
+}
+#cart i {
+  color: green;
+  float: right;
+  padding-top: 70px;
+}
+/*============navbar ends here===========*/
+
+/*======breadcrum=========*/
+#breadcrum {
+  background: #2f3330;
+}
+#breadcrum h3 {
+  padding-top: 24px;
+  color: #ffffff;
+}
+#breadcrum .path {
+  padding-top: 24px;
+  text-align: right;
+}
+#breadcrum li {
+  display: inline;
+}
+#breadcrum li:after {
+  content: '\\';
+  padding-left: 20px;
+  color: #e8e8ea;
+}
+#breadcrum li:last-child:after {
+  content: '';
+}
+#breadcrum li a {
+  text-decoration: none;
+  color: #e8e8ea;
+  font-weight: 600;
+
+}
+#breadcrum li a:hover {
+  color: green;
+  font-weight: 800;
+}
+#breadcrum .search {
+  padding-top: 24px;
+  text-align: center;
+}
+#breadcrum label {
+  text-shadow: 1px 1px 1px white;
+}
+#breadcrum i {
+  color: white;
+  font-size: 18px;
+}
+/*========breadcrum end==========*/
+
+/*============Banner start===========*/
+#banner {
+  background: azure;
+}
+
+#banner .sale {
+    width: 950px;
+    height: 250px;
+    padding-top: 20px;
+    display: list-item;
+    background: url(../images/cashback-banner.jpg) no-repeat;
+    -webkit-animation-name: bannerImage; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: bannerImage;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bannerImage {
+    0%   {background: url(../images/cashback-banner.jpg) no-repeat;}
+    25%  {background: url(../images/discount-banner.png) no-repeat;}
+    50%  {background: url(../images/smart-banner.jpg) no-repeat;}
+    100% {background: url(../images/exclusive-banner.jpg) no-repeat;}
+}
+
+/* Standard syntax */
+@keyframes bannerImage {
+    0%   {background: url(../images/cashback-banner.jpg) no-repeat;}
+    25%  {background: url(../images/discount-banner.png) no-repeat;}
+    50%  {background: url(../images/smart-banner.jpg) no-repeat;}
+    100% {background: url(../images/exclusive-banner.jpg) no-repeat;}
+}
+#banner h3 {
+    color: red;
+    text-align: center;
+    -webkit-animation-name: offer; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: offer;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes offer {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+/* Standard syntax */
+@keyframes offer {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+/*=============Category start======*/
+#category {
+  background: #7ca77e;
+}
+#category img {
+  height: 350px;
+  width: 100%;
+  padding-top: 20px;
+}
+#category h4 {
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  text-shadow: 2px 3px 0px white;
+}
+/*=============category end===========*/
+
+/*===========footer starts=============*/
+#footer {
+  background: #2f3330;
+}
+#footer .social {
+  
+}
+#footer ul {
+  display: inline-block;
+}
+#footer li a {
+}
+/*===========footer starts=============*/
