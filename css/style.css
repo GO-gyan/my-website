@@ -197,11 +197,23 @@
   background: #2f3330;
 }
 #footer .social {
-  
+  text-align: right;
 }
-#footer ul {
+#footer li {
   display: inline-block;
 }
 #footer li a {
+  text-decoration: none;
+  text-shadow: 1px 2px 2px yellow;
+}
+#footer .down {
+  padding-top: 20px;
+}
+#footer i {
+  color: white;
+}
+#footer p {
+  color: white;
+  text-shadow: 1px 2px 2px yellow;
 }
 /*===========footer starts=============*/
