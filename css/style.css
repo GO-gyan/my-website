@@ -2,7 +2,6 @@
     font-family: sans-serif;
     font-size: 13px;
     line-height: 21px;
-    color: #424242;
 }
 
 #header .container_12 {
@@ -22,22 +21,7 @@
     background: url(../images/logo.png) no-repeat;
 }
 /*============Logo ends here===========*/
-/*#search a {
-    height: 100px;
-    width: 100px;
-    background: url(../images/search.png);
-}
-#cart a {
-    height: 100px;
-    width: 100px;
-    background: url(../images/cart.jpg);
-}
 
-#nav {
-    margin-left: 10px;
-    position: absolute;
-    right: 10px;
-}*/
 /*============navbar===========*/
 #nav ul {
     display: block;
@@ -84,6 +68,7 @@
 }
 #breadcrum li {
   display: inline;
+  margin-left: 20px;
 }
 #breadcrum li:after {
   content: '\\';
@@ -101,7 +86,7 @@
 }
 #breadcrum li a:hover {
   color: green;
-  font-weight: 800;
+  font-weight: 200;
 }
 #breadcrum .search {
   padding-top: 24px;
@@ -180,15 +165,22 @@
   background: #7ca77e;
 }
 #category img {
-  height: 350px;
-  width: 100%;
-  padding-top: 20px;
+  height: 300px;
+  width: 420px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 #category h4 {
   text-align: center;
   color: black;
   padding-top: 10px;
-  text-shadow: 2px 3px 0px white;
+  text-shadow: 1px 2px 0px white;
+}
+#category a {
+  text-decoration: none;
+}
+#category h4:hover {
+  text-shadow: 1px 2px 0px green;
 }
 /*=============category end===========*/
 
@@ -217,3 +209,24 @@
   text-shadow: 1px 2px 2px yellow;
 }
 /*===========footer starts=============*/
+
+/*=============Category start======*/
+#electronics {
+  background: #ffffff;
+}
+#electronics img {
+  height: 250px;
+  width: 250px;
+  padding-top: 20px;
+  margin-left: 33px;
+}
+#electronics h5 {
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  text-shadow: 1px 1px 0px green;
+}
+#electronics h5:hover {
+  text-shadow: 1px 2px 0px yellow;
+}
+/*=============category end===========*/
