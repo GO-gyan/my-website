@@ -5,14 +5,13 @@
     position: relative;
 }
 #header {
-  /*position: fixed;*/
   background: white;
 }
 .container_12 #header {
     position: fixed;
 }
 
-/*============Logo===========*/
+/*==============Logo===============*/
 #logo h1, #search h1, #cart h1 {
     text-indent: -9999px;
 }
@@ -26,7 +25,7 @@
 }
 /*============Logo ends here===========*/
 
-/*============navbar===========*/
+/*=============navbar==================*/
 #nav ul {
     display: block;
     margin: 20px 0 0 0;
@@ -58,7 +57,7 @@
 }
 /*============navbar ends here===========*/
 
-/*======breadcrum=========*/
+/*=============breadcrum=================*/
 #breadcrum {
   background: #444443;
   position: initial;
@@ -105,9 +104,9 @@
   color: white;
   font-size: 18px;
 }
-/*========breadcrum end==========*/
+/*============breadcrum end==============*/
 
-/*============Banner start===========*/
+/*============Banner start===============*/
 #banner {
   background: azure;
 }
@@ -140,8 +139,9 @@
 #banner img {
   padding-top: 20px;
 }
-/*========Banner end===============*/
-/*=============Category start======*/
+/*=============Banner end===============*/
+
+/*=============Category start===========*/
 #category {
   background: #7ca77e;
 }
@@ -163,9 +163,9 @@
 #category h4:hover {
   text-shadow: 1px 2px 0px green;
 }
-/*=============category end===========*/
+/*=============category end==============*/
 
-/*===========footer starts=============*/
+/*=============footer starts=============*/
 #footer {
   background: #2f3330;
 }
@@ -190,9 +190,9 @@
   color: white;
   text-shadow: 1px 2px 2px yellow;
 }
-/*===========footer starts=============*/
+/*===============footer starts====================*/
 
-/*=============Category start======*/
+/*=============Electronics display start==========*/
 #electronics {
   background: #ffffff;
 }
@@ -211,4 +211,4 @@
 #electronics h5:hover {
   text-shadow: 1px 2px 0px yellow;
 }
-/*=============category end===========*/
+/*=============Electronics display end===========*/
